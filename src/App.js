@@ -24,7 +24,6 @@ const initialFriends = [
 function Button({ children, onClick }) {
   return (
     <button className="button" onClick={onClick}>
-      {" "}
       {children}
     </button>
   );
@@ -76,6 +75,7 @@ export default function App() {
       {selectedFriend && (
         <FormSplitBill
           selectedFriend={selectedFriend}
+          key={selectedFriend.id}
           onSplitBill={handleSplitBill}
         />
       )}
