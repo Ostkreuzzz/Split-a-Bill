@@ -1,3 +1,3 @@
 # Split a Bill
- Second Pet-React Project
+Small Pet-React Project
 ![Alt text](image.png)
